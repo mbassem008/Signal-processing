@@ -27,6 +27,7 @@ plt.semilogx(w1, 20 * np.log10(abs(h1)))
 plt.show()
 
 '''notre signale'''
+''' for the path in this script ,you have to download the file in the main repository named "signaljour1.txt" and make the necessary changes to run the code below'''
 from scipy import signal
 import pandas as pd
 from scipy import fftpack
